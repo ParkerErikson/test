@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0875E7D31E707BBE00FECF7B /* meow.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0875E7D21E707BBE00FECF7B /* meow.plist */; };
 		73B749EC1E706F3B003B9EBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B749EB1E706F3B003B9EBA /* AppDelegate.swift */; };
 		73B749EE1E706F3B003B9EBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B749ED1E706F3B003B9EBA /* ViewController.swift */; };
 		73B749F11E706F3B003B9EBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B749EF1E706F3B003B9EBA /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0875E7D21E707BBE00FECF7B /* meow.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = meow.plist; sourceTree = "<group>"; };
 		73B749E81E706F3B003B9EBA /* gitPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B749EB1E706F3B003B9EBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B749ED1E706F3B003B9EBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				73B749F21E706F3B003B9EBA /* Assets.xcassets */,
 				73B749F41E706F3B003B9EBA /* LaunchScreen.storyboard */,
 				73B749F71E706F3B003B9EBA /* Info.plist */,
+				0875E7D21E707BBE00FECF7B /* meow.plist */,
 			);
 			path = gitPractice;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0875E7D31E707BBE00FECF7B /* meow.plist in Resources */,
 				73B749F61E706F3B003B9EBA /* LaunchScreen.storyboard in Resources */,
 				73B749F31E706F3B003B9EBA /* Assets.xcassets in Resources */,
 				73B749F11E706F3B003B9EBA /* Main.storyboard in Resources */,
@@ -514,6 +518,7 @@
 				73B74A121E706F3B003B9EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B74A131E706F3B003B9EBA /* Build configuration list for PBXNativeTarget "gitPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				73B74A151E706F3B003B9EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B74A161E706F3B003B9EBA /* Build configuration list for PBXNativeTarget "gitPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				73B74A181E706F3B003B9EBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
